@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>File Metadata</title>
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+   </head>
+
+   <body class="d-flex justify-content-center align-items-center flex-column ">
+
+      <div class="container  text-center">
+        <h2>File Metadata Microservice</h2>
+        
+        <h3>Usage:</h3>
+        <p>
+          Upload a file and get the metadata...
+        </p>
+        <div class="view d-flex card shadow">
+          <h4 id="output"></h4>
+          <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
+            <label for="inputfield" class="btn btn-outline-secondary shadow w-100 lead">
+              Choose file...
+            </label>
+            <input class="w-100" id="inputfield" type="file" name="upfile">
+            <input class="btn btn-info bg-outline-dark shadow w-100" id="button" type="submit" value="...then Upload">
+          </form>
+        </div>
+      </div>
+      <div class="footer">
+        <p>
+          by Gerald Jones | for
+          <a href="http://www.freecodecamp.com">freeCodeCamp</a>
+        </p>
+      </div>
+   </body>
+
+
+</html>
