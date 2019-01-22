@@ -1,0 +1,27 @@
+{
+  "name": "file_metadata",
+  "version": "1.0.0",
+  "description": "API project for freeCodeCamp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.0.0-alpha.2",
+    "cors": "^2.8.1",
+    "multer": "^1.4.1"
+  },
+  "engines": {
+    "node": "4.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/znematoadz/fileMetadata"
+  },
+  "keywords": [
+    "node",
+    "multer",
+    "express"
+  ],
+  "license": "MIT"
+}
