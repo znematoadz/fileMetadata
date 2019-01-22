@@ -1,10 +1,10 @@
 /****** Main Styling ******/
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	color: #222;
-	background-color: #ECF0F1;
+	background-color: #f3f3f3 !important;
 	text-align: center;
 }
 
@@ -37,6 +37,11 @@ input {
 input#button {
   width: 230px;
 }
+
+input[type="file"] {
+    display: none;
+}
+
 .view {
   position:relative;
   margin: auto;
